@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+	
+  
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+  
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Acedemic</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">Campus Life</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Contact us</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1><center> Contact US</center></h1>
+<br><br>
+<div class="container text-center">    
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+			<p>Office of Admission<p>
+		</div>
+		<div class="col-sm-4">
+			<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+			<p>Office of financial Aid</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+			<p>Registrar's Office</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">  
+	<h4 align="left"> Important Phone Number</h4>
+	<div class="row">
+    	<div class="col-sm-4">
+			<p>Information	410-455-1000</p>
+			<p>Admissions</p>
+			<p>   Undergraduate	410-455-2291</p>
+			<p>   Graduate	410-455-2537</p>
+			<p>Alumni Relations	410-455-2904</p>
+			<p>Athletics	410-455-2126</p>
+			<p>ArtsLine	410-455-ARTS</p>
+			<p>Career Services Center	410-455-2216</p>
+			<p>Financial Aid and Scholarships	410-455-2387</p>
+			<p>Library	410-455-2233</p>
+			<p>Parking Services	410-455-2551</p>
+			<p>Police	410-455-3133</p>
+			<p>Residential Life	410-455-2591</p>
+    	</div>
+		<div class="col-sm-2 map">
+		</div>
+		
+<div class="col-sm-4 map">
+
+			<img src="https://placehold.it/150x80?text=MAP" class="img-responsive" style="width:100%" alt="image">
+University of Maryland, Baltimore County
+1000 Hilltop Circle
+Baltimore, MD 21250
+		</div>
+		</div>	
+	</div>
+</div>
+
+<br>
+<footer class="container-fluid text-center">
+  <p>University of Maryland, Baltimore County • 1000 Hilltop Circle • Baltimore, MD</p>
+</footer>
+
+</body>
+</html>
